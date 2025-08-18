@@ -18,10 +18,13 @@ namespace SwinAdventure
             return _identifiers.Contains(id.ToLower());
         }
 
-        public string FirstId()
+        public string FirstId
         {
-            if (_identifiers.Count() == 0) return "";
-            return _identifiers[0];
+            get
+            {
+                if (_identifiers.Count == 0) return "";
+                return _identifiers[0];
+            }
         }
 
         public void AddIdentifier(string id)
