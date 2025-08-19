@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj": {}
+    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj": {
+    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj",
+        "projectUniqueName": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj",
         "projectName": "IdentifiableObjectTest",
-        "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj",
+        "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObjectTest\\IdentifiableObjectTest.csproj",
         "packagesPath": "C:\\Users\\liam1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObjectTest\\obj\\",
+        "outputPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObjectTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liam1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj": {
-                "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj"
+              "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj": {
+                "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj": {
+    "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj",
+        "projectUniqueName": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj",
         "projectName": "IdentifiableObject",
-        "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj",
+        "projectPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\IdentifiableObject.csproj",
         "packagesPath": "C:\\Users\\liam1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Part2\\OOP-Week-3\\IdentifiableObject\\obj\\",
+        "outputPath": "C:\\Users\\liam1\\OneDrive\\OOP\\OOP-Week-3_Verifcation Task\\OOP-Week-3\\IdentifiableObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liam1\\AppData\\Roaming\\NuGet\\NuGet.Config"

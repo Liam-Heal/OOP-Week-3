@@ -13,18 +13,13 @@ public class VerificationTests
             "A short sword cast from bronze"
         );
     }
-
-    // --- Task 1: Test RemoveIdentifier ---
     [Test]
     public void TestRemoveIdentifierTrue()
     {
-        // Precondition: "bronze" is an identifier
         Assert.That(sword.AreYou("bronze"), Is.True);
 
-        // Act
         bool removed = sword.RemoveIdentifier("bronze");
 
-        // Assert
         Assert.That(removed, Is.True);
         Assert.That(sword.AreYou("bronze"), Is.False);
     }
