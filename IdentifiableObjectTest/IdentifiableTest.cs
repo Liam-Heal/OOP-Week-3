@@ -30,7 +30,7 @@ public class IdentifiableTest
     [Test]
     public void TestFirstId()
     {
-        Assert.That(id.FirstId(), Is.EqualTo("105923500"));
+        Assert.That(id.FirstId, Is.EqualTo("105923500"));
     }
 
     [Test]

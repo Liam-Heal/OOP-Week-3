@@ -13,8 +13,15 @@ namespace SwinAdventure
 
         public string Name => _name;
 
-        public string ShortDescription => $"a {_name} ({FirstId()})";
+        // Use property FirstId (no parentheses)
+        public string ShortDescription => $"a {_name} ({FirstId})";
 
         public string LongDescription => _description;
+
+        // For the verification test
+        public int GetIdentifierCount()
+        {
+            return IdentifierCount;
+        }
     }
 }

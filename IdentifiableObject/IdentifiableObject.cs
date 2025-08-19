@@ -1,5 +1,4 @@
 namespace SwinAdventure
-
 {
     public class IdentifiableObject
     {
@@ -11,8 +10,8 @@ namespace SwinAdventure
             {
                 _identifiers.Add(i.ToLower());
             }
-
         }
+
         public bool AreYou(string id)
         {
             return _identifiers.Contains(id.ToLower());
@@ -27,24 +26,29 @@ namespace SwinAdventure
             }
         }
 
+        // Block duplicates (case-insensitive)
         public void AddIdentifier(string id)
         {
-            _identifiers.Add(id.ToLower());
+            string key = id.ToLower();
+            if (!_identifiers.Contains(key))
+            {
+                _identifiers.Add(key);
+            }
         }
 
-        public void RemoveIdentifier(string id)
+        // Return true if something was removed, false otherwise
+        public bool RemoveIdentifier(string id)
         {
-            _identifiers.Remove(id.ToLower());
+            return _identifiers.Remove(id.ToLower());
         }
 
         public void PrivilegeEscalation(string pin)
         {
             if (pin == "3500")
             {
-
                 _identifiers[0] = "Class tuesday afternoon";
             }
         }
+        protected int IdentifierCount => _identifiers.Count;
     }
-
 }
